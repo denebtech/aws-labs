@@ -37,7 +37,7 @@ arn:aws:iam::aws:policy/SecurityAudit
 arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
 ```
 
-![001.1 Audit group to use prowler](images/001.1_audit_group.png)
+![001.1 Audit group to use prowler](../images/001.1_audit_group.png)
 
 - Create an AWS user with and membership in the previous group.
 - Create an AWS access keys for prowler_user.
@@ -59,8 +59,8 @@ user@Lenovo-V15:~$ prowler aws --profile audit --region us-east-1 -F index -o re
 
 - View Prowler html report and filter by FAIL status
 
-![001.2 Prowler report filter](images/001.2_prowler_report_filter.png)
+![001.2 Prowler report filter](../images/001.2_prowler_report_filter.png)
 
 - Fix some checks and re-run Prowler's previous command again to verify.
 
-![001.3 Prowler new report](images/001.3_prowler_new_report.png)
+![001.3 Prowler new report](../images/001.3_prowler_new_report.png)
