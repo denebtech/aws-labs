@@ -39,4 +39,7 @@ terraform.rc
 
 .terraform.lock.hcl
 
+# custom
+reports/
+
 # End of https://www.toptal.com/developers/gitignore/api/terraform

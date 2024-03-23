@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "001-audit-aws-with-prowler"
+version = "1.0.0"
+description = "Audit with prowler"
+authors = ["Jairo JM Quispe <joelquispeunju@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+prowler = "3.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
