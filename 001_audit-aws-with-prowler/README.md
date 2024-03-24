@@ -63,4 +63,4 @@ user@Lenovo-V15:~$ prowler aws --profile audit --region us-east-1 -F index -o re
 
 - Fix some checks and re-run Prowler's previous command again to verify.
 
-![001.3 Prowler new report](../images/001.3_prowler_new_report.png)
+![001.3 Prowler new report](../images/001.3_prowler_new_report_filter.png)
